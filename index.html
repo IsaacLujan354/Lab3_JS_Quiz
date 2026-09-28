@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Quiz</title>
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Pokemon Quiz</h1>
+
+        <p id="timesTakenContainer"></p>
+
+        <p id="score"></p>
+
+        <div class="qDiv">
+            <div id="q1Image"></div>
+
+            1. What generation was Torchic introduced?
+        </div>
+
+        <!-- <label><input type="radio" name="q1" value="select"> Select </label>
+    <label><input type="radio" name="q1" value="dropdown"> Dropdown </label>
+    <label><input type="radio" name="q1" value="option"> Option </label>
+    <label><input type="radio" name="q1" value="menu"> Menu </label> -->
+
+        <div id="q1Choices"></div>
+
+        <p id="q1Message"></p>
+
+        <div class="qDiv">
+            <div id="q2Image"></div>
+            2. What pokemon does Eevee evolve into when given an Ice Stone?
+        </div>
+
+        <input type="text" id="q2">
+
+        <p id="q2Message"></p>
+
+        <div class="qDiv">
+            <div id="q3Image"></div>
+            3. Which Pokemon is the God of Time?
+        </div>
+
+        <select id="q3">
+            <option id="palkia" value="palkia">Palkia</option>
+            <option id="dialga" value="dialga">Dialga</option>
+            <option id="rayquaza" value="rayquaza">Rayquaza</option>
+            <option id="arceus" value="arceus">Arceus</option>
+        </select>
+
+        <p id="q3Message"></p>
+
+        <div class="qDiv">
+            <div id="q4Image"></div>
+            4. How many Eeveelutions are there?
+        </div>
+
+        <input id="q4" type="number">
+
+        <p id="q4Message"></p>
+
+        <div class="qDiv">
+            <div id="q5Image"></div>
+            5. Which Pokemon are from Gen I?
+        </div>
+
+        <label><input type="checkbox" name="q5" value="pikachu">Pikachu</label>
+        <label><input type="checkbox" name="q5" value="miltank">Miltank</label>
+        <label><input type="checkbox" name="q5" value="mew">Mew</label>
+        <label><input type="checkbox" name="q5" value="kingdra">Kingdra</label>
+
+        <p id="q5Message"></p>
+
+        <button>Submit Quiz</button>
+    </div>
+
+</body>
+
+</html>
